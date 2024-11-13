@@ -7,7 +7,8 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="basicmap.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -21,20 +22,11 @@
           <li><a href="map.html">Map</a></li>
         </ul>
       </nav>
-  </header>
-  <div id="wrapper"></div>
-    <div id="canvas"></div>
-  <script>
-    var map;
-    function initMap(){
-      map = new google.maps.Map(document.getElementById('map'),{
-        center: {lat: -34.397, lng: 150.644},
-        zoom:8
-      });
-    }
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
-    async defer></script>
+    </header>
+    <div id="wrapper"></div>
+    <h1> Illinois Institue of Technology</h1>
+      <div id="canvas"></div>
+    
 
   <footer>
     <p>&copy; 2024 Kimberly Dominguez</p>
