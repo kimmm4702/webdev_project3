@@ -223,6 +223,17 @@ nav ul li a:hover{
 }
 
 /*Map*/
+@media (min-width: 600px){
+  #map{
+    height: 400px;
+  }
+}
+@media(min-width: 768px){
+  #map{
+    height: 500px;
+    width: 80%;
+  }
+}
 #wrapper{
   width: 850px;
   height: 600px;
