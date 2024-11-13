@@ -223,6 +223,13 @@ nav ul li a:hover{
 }
 
 /*Map*/
+
+.map h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 600px){
   #map{
     height: 400px;
@@ -238,6 +245,10 @@ nav ul li a:hover{
 #wrapper{
   background-color: lightseagreen;
   position: relative;
+  height: 500px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 #map{
