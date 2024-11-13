@@ -224,22 +224,30 @@ nav ul li a:hover{
 
 /*Map*/
 
-.map h1{
-  font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
-  margin-bottom: 20px;
+.container{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: lightseagreen;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
 }
 
+
 @media (min-width: 600px){
-  #map{
-    height: 400px;
+  .container{
+    width: 90%;
+    padding: 1.5rem;
   }
 }
-@media(min-width: 768px){
-  #map{
+@media(min-width: 900px){
+  .container{
     height: 500px;
     width: 80%;
     margin: 0 auto;
+    padding: 2rem;
   }
 }
 #wrapper{
@@ -251,13 +259,6 @@ nav ul li a:hover{
   margin: 0 auto;
 }
 
-#map{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
+
 
 
