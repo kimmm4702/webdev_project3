@@ -1,0 +1,225 @@
+body{
+  font-family: "Domine", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+#index-page,#resume-page, #hobbies-page{
+  padding: 20px;
+}
+
+/*Background colors*/
+#index-page{
+  background-color: #d3c9ee;
+}
+#resume-page{
+  background-color: #d4e6f3;
+}
+#hobbies-page{
+  background-color: #eff3d4;
+}
+
+/*Header*/
+header{
+  background-color: lightpink;
+  text-align: center;
+  padding: 1rem;
+}
+header nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+header nav ul li{
+  display: inline-block;
+  margin: 0 2rem;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  background-color: hotpink;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+nav ul li a:hover{
+  color: #b72d51;
+}
+
+/*About Section*/
+#about{
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+#about p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+#about h1{
+  color: #800080;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+#about h2{
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+/* Video*/
+.video-container{
+  margin-top : 20px;
+  text-align: center;
+}
+
+.video-container iframe{
+  border: 2px solid blue;
+  border-radius: 6px;
+}
+
+/*Pets*/
+.pets{
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+  flex-wrap: wrap;
+  padding: 2rem;
+
+}
+.pets figure{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 0;
+
+}
+
+.pets figure img{
+  border:3px solid #9557df;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  
+}
+.pets figure figcaption{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #000000;
+}
+.pets p{
+  font-size: 0.3rem;
+  color: black;
+}
+
+
+
+/*Resume*/
+#resume-page{
+  padding: 2rem;
+  width: 960px;
+  margin: 0 auto;
+}
+#resume-page h1{
+  color: #0000FF;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center ;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.resume-section{
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 2px solid darkblue;
+}
+.resume-section h2{
+  font-size:  1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.resume-section p, .resume-section ul, .resume-section ol{
+  font-size: 1rem;
+  color: black;
+}
+
+/*Hobbies*/
+#hobbies-page{
+  padding: 2rem;
+
+}
+#hobbies-page h1{
+  color: green;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center ;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+.hobbies-section{
+  margin-bottom: 2rem;
+}
+
+.hobbies-section h2{
+  font-family: "Domine", sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+.image-container{
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 0 1%;
+}
+.image-container img{
+  width: 70%;
+  border-radius: 8px
+}
+#side-business img{
+  border-radius: 10px;
+  border: 4px solid darkred;
+  max-width: 70%;
+  height: auto;
+  margin: 1rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+/*Overlay*/
+.overlay{
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 15%;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow ;
+  border-radius: 8px;
+}
+.image-container:hover .overlay{
+  opacity: 1;
+}
+.text{
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
