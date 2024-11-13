@@ -194,6 +194,36 @@ nav ul li a:hover{
   margin-left: auto;
 
 }
+/* Slider*/
+.slider{
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slide{
+  display: none;
+  text-align: center;
+}
+.slide img{
+  width: 100%;
+  height: auto;
+}
+.prev, .next{
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  font-size: 24px;
+}
+.prev{
+  left: 0;
+}
+.next{
+  right: 0;
+}
+.slide.active{
+  display: block;
+}
 
 
 /*Overlay*/
