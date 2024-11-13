@@ -236,11 +236,7 @@ nav ul li a:hover{
   }
 }
 #wrapper{
-  width: 850px;
-  height: 600px;
   background-color: lightseagreen;
-  margin: 0 auto;
-  overflow: hidden;
   position: relative;
 }
 
