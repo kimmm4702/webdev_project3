@@ -225,7 +225,7 @@ nav ul li a:hover{
 /*Map*/
 
 .container{
-  height: 100%;
+  height: 500px;
   width: 100%;
   position: absolute;
   background-color: lightseagreen;
@@ -233,6 +233,10 @@ nav ul li a:hover{
   left: 0;
   z-index: 1;
 
+}
+#map{
+  width: 100%;
+  height: 100%;
 }
 
 
