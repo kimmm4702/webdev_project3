@@ -247,5 +247,9 @@ nav ul li a:hover{
   background-color: #ccc;
   margin: 30px auto;
 }
+#map{
+  height: 100%;
+  width: 100%;
+}
 
 
