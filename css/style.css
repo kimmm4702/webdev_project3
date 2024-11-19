@@ -20,6 +20,9 @@ body{
 #hobbies-page{
   background-color: #eff3d4;
 }
+#map-page{
+  background-color: #d6e4f4;
+}
 
 /*Header*/
 header{
@@ -35,7 +38,7 @@ header nav ul{
   padding: 0;
   display: inline-flex;
   justify-content: center;
-  
+
  
 }
 header nav ul li{
