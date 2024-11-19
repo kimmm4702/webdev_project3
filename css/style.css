@@ -122,10 +122,6 @@ nav ul li a:hover{
 
 
 /*Resume*/
-#resume-page{
-  padding: 2rem;
-  margin: 0 auto;
-}
 #resume-page h1{
   color: #0000FF;
   font-family: 'Shadows Into Light', cursive;
@@ -150,10 +146,6 @@ nav ul li a:hover{
 }
 
 /*Hobbies*/
-#hobbies-page{
-  padding: 2rem;
-
-}
 #hobbies-page h1{
   color: green;
   font-family: 'Shadows Into Light', cursive;
